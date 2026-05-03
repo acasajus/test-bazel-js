@@ -1,0 +1,11 @@
+# Bazel settings
+common --enable_bzlmod
+
+# Hermetic builds
+build --incompatible_strict_action_env
+
+# Performance
+build --worker_max_instances=8
+
+# Debugging
+build --action_env=JS_BINARY__SILENT_ON_SUCCESS=0

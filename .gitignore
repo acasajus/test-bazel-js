@@ -1,0 +1,30 @@
+# Bazel
+bazel-*
+.bazelignore
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Build artifacts (if any outside Bazel)
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
